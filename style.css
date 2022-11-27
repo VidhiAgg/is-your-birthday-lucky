@@ -1,0 +1,87 @@
+:root {
+    --secondaryColor: rgb(46 9 40);
+    --max-width: 600px;
+}
+
+body {
+    /* background: rgb(237,229,234); */
+    background: linear-gradient(90deg, rgba(237, 229, 234, 1) 0%, rgba(194, 110, 180, 1) 37%, rgba(209, 212, 15, 1) 100%);
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+#result {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--secondaryColor);
+    font-weight: bolder;
+    
+}
+
+label {
+    margin: auto;
+    font-size: 1.2rem;
+    color: var(--secondaryColor);
+    font-weight: bolder;
+    text-align: center;
+    display: inline-block;
+}
+.checkResult {
+    display: block;
+    padding: 1em 3em;
+    border-radius: 50px;
+    margin: auto;
+    color: #fff;
+    background: var(--secondaryColor);
+    font-size: 1em;
+    align-self: center;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin-top: 2rem;
+    
+
+}
+
+.output-textarea, input{
+
+    padding:10px 10px;
+    line-height:110%;
+    width: 50%;
+    font-size: 1.2em;
+    align-self: center;
+    outline: none;
+}
+input{
+    display:inline-block;
+    border-radius: 50px;
+    font-size: 1.2em;
+    align-self: center;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin: 2rem;
+    margin-left: 10px;
+}
+.birthInputField  {
+    margin-left: 25px;
+
+}
+.output-textarea{
+    border-radius: 30px;
+    border-color: var(--secondaryColor);
+    cursor: pointer;
+    margin: auto;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
